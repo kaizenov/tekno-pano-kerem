@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Energy distribution room</title>
+  <desc id="desc">A wide electrical distribution room with blue light and control panels.</desc>
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#071d3b"/>
+      <stop offset=".62" stop-color="#092a59"/>
+      <stop offset="1" stop-color="#03162d"/>
+    </linearGradient>
+    <linearGradient id="cab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#8fa6ba"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#room)"/>
+  <path d="M0 170h1400M0 725h1400" stroke="#43e7ff" stroke-opacity=".18"/>
+  <path d="M700 170 144 725M700 170l556 555" stroke="#43e7ff" stroke-opacity=".16"/>
+  <g transform="translate(96 205)">
+    <g fill="url(#cab)" stroke="#ffffff" stroke-opacity=".36">
+      <rect width="186" height="490" rx="8"/>
+      <rect x="212" width="186" height="490" rx="8"/>
+      <rect x="424" width="186" height="490" rx="8"/>
+      <rect x="636" width="186" height="490" rx="8"/>
+      <rect x="848" width="186" height="490" rx="8"/>
+      <rect x="1060" width="186" height="490" rx="8"/>
+    </g>
+    <g fill="#071d3b">
+      <rect x="28" y="34" width="130" height="74" rx="4"/>
+      <rect x="240" y="34" width="130" height="74" rx="4"/>
+      <rect x="452" y="34" width="130" height="74" rx="4"/>
+      <rect x="664" y="34" width="130" height="74" rx="4"/>
+      <rect x="876" y="34" width="130" height="74" rx="4"/>
+      <rect x="1088" y="34" width="130" height="74" rx="4"/>
+    </g>
+    <g stroke="#43e7ff" stroke-width="8" stroke-linecap="round">
+      <path d="M50 68h86M262 68h86M474 68h86M686 68h86M898 68h86M1110 68h86"/>
+    </g>
+    <g stroke="#829bb2" stroke-width="10" stroke-linecap="round">
+      <path d="M36 174h114M36 220h114M36 266h114M248 174h114M248 220h114M248 266h114M460 174h114M460 220h114M460 266h114M672 174h114M672 220h114M672 266h114M884 174h114M884 220h114M884 266h114M1096 174h114M1096 220h114M1096 266h114"/>
+    </g>
+  </g>
+  <rect x="0" y="720" width="1400" height="180" fill="#03162d" opacity=".64"/>
+  <path d="M130 784h1140" stroke="#43e7ff" stroke-opacity=".7" stroke-width="5"/>
+</svg>

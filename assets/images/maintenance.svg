@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Electrical maintenance service</title>
+  <desc id="desc">A technical maintenance scene with tools, diagnostic display and electrical cabinet.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9e8f5"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b63f6"/>
+      <stop offset="1" stop-color="#43e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="820" fill="url(#bg)"/>
+  <rect x="120" y="98" width="430" height="590" rx="9" fill="#eef5fb" stroke="#b5c7d8"/>
+  <rect x="160" y="144" width="350" height="100" rx="5" fill="#071d3b"/>
+  <path d="M192 190h132M192 218h214" stroke="#43e7ff" stroke-width="10" stroke-linecap="round"/>
+  <g stroke="#829bb2" stroke-width="12" stroke-linecap="round">
+    <path d="M178 314h300M178 364h300M178 414h300M178 464h300"/>
+  </g>
+  <circle cx="224" cy="552" r="28" fill="#18a56b"/>
+  <circle cx="312" cy="552" r="28" fill="#d94343"/>
+  <path d="M716 210l218 218-70 70-218-218z" fill="url(#blue)"/>
+  <path d="M624 300l330 330" stroke="#071d3b" stroke-width="46" stroke-linecap="round"/>
+  <path d="M560 614c102-24 190-112 214-214l134 134c-36 82-106 152-214 214z" fill="#071d3b"/>
+  <g transform="translate(730 122)">
+    <rect width="310" height="196" rx="8" fill="#071d3b"/>
+    <path d="M36 62h142M36 102h238M36 142h170" stroke="#ffffff" stroke-opacity=".78" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Electrical panel detail</title>
+  <desc id="desc">Close view of an electrical panel with breakers and indicator lights.</desc>
+  <rect width="900" height="1080" fill="#eef5fb"/>
+  <rect x="120" y="90" width="660" height="900" rx="8" fill="#f8fbff" stroke="#9bb1c6" stroke-width="5"/>
+  <rect x="172" y="148" width="556" height="130" rx="6" fill="#071d3b"/>
+  <path d="M220 202h210M220 238h326" stroke="#43e7ff" stroke-width="14" stroke-linecap="round"/>
+  <g transform="translate(180 340)" fill="#0b63f6">
+    <rect width="92" height="150" rx="5"/><rect x="122" width="92" height="150" rx="5"/><rect x="244" width="92" height="150" rx="5"/><rect x="366" width="92" height="150" rx="5"/>
+  </g>
+  <g stroke="#829bb2" stroke-width="18" stroke-linecap="round">
+    <path d="M188 570h524M188 638h524M188 706h524M188 774h524"/>
+  </g>
+  <circle cx="318" cy="880" r="34" fill="#18a56b"/>
+  <circle cx="450" cy="880" r="34" fill="#d94343"/>
+  <circle cx="582" cy="880" r="34" fill="#43e7ff"/>
+</svg>

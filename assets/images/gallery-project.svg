@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Completed industrial project</title>
+  <desc id="desc">Completed industrial energy distribution project with premium blue lighting.</desc>
+  <rect width="1080" height="1080" fill="#061f3f"/>
+  <path d="M0 196h1080M0 402h1080M0 608h1080M0 814h1080" stroke="#43e7ff" stroke-opacity=".13"/>
+  <g transform="translate(112 148)" fill="#eef5fb" stroke="#ffffff" stroke-opacity=".35">
+    <rect width="250" height="650" rx="8"/>
+    <rect x="304" width="250" height="650" rx="8"/>
+    <rect x="608" width="250" height="650" rx="8"/>
+  </g>
+  <g fill="#071d3b">
+    <rect x="156" y="204" width="162" height="96" rx="5"/>
+    <rect x="460" y="204" width="162" height="96" rx="5"/>
+    <rect x="764" y="204" width="162" height="96" rx="5"/>
+  </g>
+  <g stroke="#43e7ff" stroke-width="10" stroke-linecap="round">
+    <path d="M182 248h106M486 248h106M790 248h106"/>
+  </g>
+  <path d="M170 902h740" stroke="#43e7ff" stroke-width="8" stroke-linecap="round"/>
+</svg>

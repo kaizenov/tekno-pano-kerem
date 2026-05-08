@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri | TeknoPano</title>
+  <meta name="description" content="TeknoPano elektrik panoları, otomasyon, tesisat, proje ve video galeri içerikleri.">
+  <meta name="keywords" content="TeknoPano galeri, elektrik pano görselleri, otomasyon projeleri, tesisat montajı, proje videoları">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#03162d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Galeri | TeknoPano">
+  <meta property="og:description" content="Elektrik pano, otomasyon, tesisat ve proje çalışmalarından modern medya galerisi.">
+  <meta property="og:image" content="assets/images/gallery-project.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <div class="preloader" aria-hidden="true"><img class="loader-logo" src="assets/images/2.png" alt=""></div>
+  <div class="progress-bar" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="anasayfa.html" aria-label="TeknoPano Ana Sayfa"><img class="brand-logo" src="assets/images/2.png" alt="Teknopano Elektrik Sistemleri"></a>
+      <nav class="main-nav" id="site-nav" aria-label="Ana menü">
+        <a class="nav-link" href="anasayfa.html">Ana Sayfa</a>
+        <a class="nav-link" href="bizkimiz.html">Biz Kimiz</a>
+        <a class="nav-link" href="islemlerimiz.html">İşlemlerimiz</a>
+        <a class="nav-link" href="galeri.html">Galeri</a>
+        <a class="nav-link" href="randevu.html">Randevu</a>
+        <a class="nav-link" href="anasayfa.html#iletisim">İletişim</a>
+        <a class="btn nav-cta" href="randevu.html"><i class="fa-regular fa-calendar-check" aria-hidden="true"></i> Randevu Oluştur</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Menüyü aç veya kapat" aria-controls="site-nav" aria-expanded="false"><span aria-hidden="true"></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" style="--hero-image: url('assets/images/gallery-project.svg');">
+      <div class="container" data-reveal>
+        <div class="breadcrumbs"><a href="anasayfa.html">Ana Sayfa</a><span>/</span><span>Galeri</span></div>
+        <h1>Elektrik pano ve otomasyon projelerinden seçili görseller</h1>
+        <p>Masonry grid, kategori filtreleme, hover zoom, lightbox ve video popup sistemiyle modern medya vitrini.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Medya Galerisi</span>
+          <h2>Pano, montaj, otomasyon ve proje çalışmalarını keşfedin</h2>
+          <p>Görseller lazy loading ile yüklenir; kategori filtreleri ve popup izleme sistemi tüm ekranlarda akıcı çalışır.</p>
+        </div>
+
+        <div class="filter-bar" role="list" aria-label="Galeri kategorileri" data-reveal>
+          <button class="filter-btn is-active" type="button" data-filter="all">Tümü</button>
+          <button class="filter-btn" type="button" data-filter="panolar">Elektrik Panoları</button>
+          <button class="filter-btn" type="button" data-filter="otomasyon">Otomasyon</button>
+          <button class="filter-btn" type="button" data-filter="tesisat">Tesisat</button>
+          <button class="filter-btn" type="button" data-filter="projeler">Projeler</button>
+          <button class="filter-btn" type="button" data-filter="videolar">Videolar</button>
+        </div>
+
+        <div class="masonry-grid" data-reveal>
+          <article class="media-item" tabindex="0" data-category="panolar projeler" data-type="image" data-image="assets/images/gallery-panels.svg" data-title="Dağıtım Panosu" data-text="Etiketli kablolama, düzenli komponent yerleşimi ve test odaklı pano teslimi.">
+            <div class="media-thumb">
+              <img src="assets/images/gallery-panels.svg" alt="Dağıtım panosu görseli" loading="lazy">
+              <div class="media-overlay"><span>Elektrik Panoları</span><span class="play-dot"><i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="media-body"><h3>Dağıtım Panosu</h3><p>Modern pano içi düzen ve kontrol noktaları.</p></div>
+          </article>
+
+          <article class="media-item" tabindex="0" data-category="otomasyon projeler" data-type="image" data-image="assets/images/gallery-automation.svg" data-title="Otomasyon İzleme" data-text="PLC, sensör ve kontrol ekranlarıyla izlenebilir üretim altyapısı.">
+            <div class="media-thumb">
+              <img src="assets/images/gallery-automation.svg" alt="Otomasyon kontrol ekranı" loading="lazy">
+              <div class="media-overlay"><span>Otomasyon</span><span class="play-dot"><i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="media-body"><h3>Otomasyon İzleme</h3><p>Veri odaklı kontrol mimarisi.</p></div>
+          </article>
+
+          <article class="media-item" tabindex="0" data-category="tesisat" data-type="image" data-image="assets/images/gallery-installation.svg" data-title="Tesisat Montaj Süreci" data-text="Ölçüm, kablolama ve güvenlik kontrolleriyle uygulama süreci.">
+            <div class="media-thumb">
+              <img src="assets/images/gallery-installation.svg" alt="Tesisat montaj süreci" loading="lazy">
+              <div class="media-overlay"><span>Tesisat</span><span class="play-dot"><i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="media-body"><h3>Tesisat Montaj Süreci</h3><p>Kablolama ve saha ölçüm çalışmaları.</p></div>
+          </article>
+
+          <article class="media-item" tabindex="0" data-category="projeler panolar" data-type="image" data-image="assets/images/gallery-project.svg" data-title="Tamamlanan Enerji Projesi" data-text="Endüstriyel enerji dağıtım odası ve pano teslim standardı.">
+            <div class="media-thumb">
+              <img src="assets/images/gallery-project.svg" alt="Tamamlanan enerji projesi" loading="lazy">
+              <div class="media-overlay"><span>Projeler</span><span class="play-dot"><i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="media-body"><h3>Tamamlanan Enerji Projesi</h3><p>Dağıtım ve kontrol panosu uygulaması.</p></div>
+          </article>
+
+          <article class="media-item" tabindex="0" data-category="tesisat projeler" data-type="image" data-image="assets/images/maintenance.svg" data-title="Teknik Servis Çalışması" data-text="Arıza tespiti, ölçüm ve onarım sürecinden teknik servis görünümü.">
+            <div class="media-thumb">
+              <img src="assets/images/maintenance.svg" alt="Teknik servis çalışması" loading="lazy">
+              <div class="media-overlay"><span>Teknik Ekip</span><span class="play-dot"><i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="media-body"><h3>Teknik Servis Çalışması</h3><p>Arıza tespiti ve bakım operasyonu.</p></div>
+          </article>
+
+          <article class="media-item" tabindex="0" data-category="otomasyon videolar" data-type="video" data-title="Ürün Video Önizlemesi" data-text="Pano ürünleri ve kontrol bileşenleri için video popup alanı.">
+            <div class="media-thumb">
+              <img src="assets/images/video-poster-panel.svg" alt="Ürün video poster görseli" loading="lazy">
+              <div class="media-overlay"><span>Videolar</span><span class="play-dot"><i class="fa-solid fa-play" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="media-body"><h3>Ürün Video Önizlemesi</h3><p>Elektrik pano ürünleri için video alanı.</p></div>
+          </article>
+
+          <article class="media-item" tabindex="0" data-category="projeler videolar" data-type="video" data-title="Proje Video Önizlemesi" data-text="Tamamlanan proje süreçleri için popup oynatıcı alanı.">
+            <div class="media-thumb">
+              <img src="assets/images/video-poster-project.svg" alt="Proje video poster görseli" loading="lazy">
+              <div class="media-overlay"><span>Proje Videosu</span><span class="play-dot"><i class="fa-solid fa-play" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="media-body"><h3>Proje Video Önizlemesi</h3><p>Montaj ve devreye alma süreci vitrini.</p></div>
+          </article>
+
+          <article class="media-item" tabindex="0" data-category="otomasyon tesisat" data-type="image" data-image="assets/images/automation-line.svg" data-title="Otomasyon Hattı" data-text="Sensör, kontrol ekranı ve hat yönetimiyle endüstriyel otomasyon.">
+            <div class="media-thumb">
+              <img src="assets/images/automation-line.svg" alt="Otomasyon hattı görseli" loading="lazy">
+              <div class="media-overlay"><span>Otomasyon</span><span class="play-dot"><i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i></span></div>
+            </div>
+            <div class="media-body"><h3>Otomasyon Hattı</h3><p>Endüstriyel kontrol ve izleme sistemi.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Galeri önizleme">
+    <div class="lightbox-panel">
+      <div class="lightbox-media"></div>
+      <div class="lightbox-info">
+        <div>
+          <h3 class="lightbox-title">Galeri</h3>
+          <p class="lightbox-text"></p>
+        </div>
+        <button class="icon-btn lightbox-close" type="button" aria-label="Galeri penceresini kapat"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer" id="iletisim">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="anasayfa.html" aria-label="TeknoPano Ana Sayfa"><img class="brand-logo" src="assets/images/2.png" alt="Teknopano Elektrik Sistemleri"></a>
+        <p>Elektrik pano sistemleri, tesisat dağıtım, tesisat onarım, endüstriyel otomasyon ve enerji sistemlerinde profesyonel çözüm ortağınız.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/teknopanoelektrik" target="_blank" rel="noopener" aria-label="TeknoPano Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://wa.me/905393475534" target="_blank" rel="noopener" aria-label="TeknoPano WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div>
+        <h3>Hızlı Linkler</h3>
+        <ul class="footer-links">
+          <li><a href="bizkimiz.html">Biz Kimiz</a></li>
+          <li><a href="islemlerimiz.html">İşlemlerimiz</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="randevu.html">Randevu</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>İletişim</h3>
+        <ul class="footer-contact">
+          <li><a href="tel:+905393475534">0539 347 55 34</a></li>
+          <li><a href="mailto:info@teknopano.com.tr">info@teknopano.com.tr</a></li>
+          <li>İstanbul / Kağıthane</li>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=Ka%C4%9F%C4%B1thane%20%C4%B0stanbul" target="_blank" rel="noopener">Haritada Aç</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Çalışma Alanları</h3>
+        <p>Elektrik pano kurulumu, enerji dağıtım sistemleri, arıza tespiti, bakım ve otomasyon entegrasyonu.</p>
+        <a class="btn" href="randevu.html">Randevu Oluştur</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 TeknoPano. Tüm hakları saklıdır.</span>
+      <span class="site-credit">Bu site <a href="https://altoswebs.com" target="_blank" rel="noopener">Altos Webs</a> tarafından tasarlanmıştır.</span>
+      <div class="legal-links">
+        <a href="cerezpolitikasi.html">Çerez Politikası</a>
+        <a href="gizlilikpolitikasi.html">Gizlilik Politikası</a>
+        <a href="kullanimkosullari.html">Kullanım Koşulları</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

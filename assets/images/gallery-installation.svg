@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">Electrical installation process</title>
+  <desc id="desc">Cable installation and measurement process in a technical workspace.</desc>
+  <rect width="900" height="720" fill="#f7fbff"/>
+  <rect x="82" y="104" width="300" height="430" rx="8" fill="#dfeaf3" stroke="#9bb1c6"/>
+  <rect x="120" y="144" width="224" height="82" rx="5" fill="#071d3b"/>
+  <path d="M148 184h96M148 210h146" stroke="#43e7ff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M156 286c20 118 188 90 198 224M210 286c18 100 122 104 124 224M264 286c14 80 68 118 70 224" fill="none" stroke="#d94343" stroke-width="9" stroke-linecap="round"/>
+  <g transform="translate(520 154)">
+    <rect width="250" height="170" rx="8" fill="#071d3b"/>
+    <path d="M34 62h106M34 102h178" stroke="#ffffff" stroke-opacity=".78" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="196" cy="76" r="22" fill="#43e7ff"/>
+  </g>
+  <path d="M500 458h270" stroke="#0b63f6" stroke-width="26" stroke-linecap="round"/>
+  <path d="M548 506h174" stroke="#43e7ff" stroke-width="10" stroke-linecap="round"/>
+</svg>

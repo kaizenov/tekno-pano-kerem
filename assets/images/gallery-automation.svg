@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 820" role="img" aria-labelledby="title desc">
+  <title id="title">Automation control interface</title>
+  <desc id="desc">Automation controls with monitoring cards and energy graph.</desc>
+  <rect width="1080" height="820" fill="#03162d"/>
+  <rect x="80" y="86" width="920" height="570" rx="10" fill="#071d3b" stroke="#43e7ff" stroke-opacity=".3"/>
+  <path d="M140 174h250M140 228h370M140 282h210" stroke="#ffffff" stroke-opacity=".78" stroke-width="22" stroke-linecap="round"/>
+  <g fill="#0b63f6">
+    <rect x="140" y="374" width="190" height="150" rx="8"/>
+    <rect x="366" y="374" width="190" height="150" rx="8"/>
+    <rect x="592" y="374" width="190" height="150" rx="8"/>
+  </g>
+  <path d="M632 236l72-76 66 42 96-118" fill="none" stroke="#43e7ff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="632" cy="236" r="15" fill="#43e7ff"/><circle cx="704" cy="160" r="15" fill="#43e7ff"/><circle cx="770" cy="202" r="15" fill="#43e7ff"/><circle cx="866" cy="84" r="15" fill="#43e7ff"/>
+</svg>

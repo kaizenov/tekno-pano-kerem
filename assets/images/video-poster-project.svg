@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Project video poster</title>
+  <desc id="desc">Video poster scene for a completed automation project.</desc>
+  <rect width="1280" height="720" fill="#071d3b"/>
+  <path d="M0 168h1280M0 360h1280M0 552h1280" stroke="#43e7ff" stroke-opacity=".14"/>
+  <g fill="#eef5fb" stroke="#ffffff" stroke-opacity=".32">
+    <rect x="116" y="128" width="210" height="410" rx="8"/>
+    <rect x="370" y="128" width="210" height="410" rx="8"/>
+    <rect x="624" y="128" width="210" height="410" rx="8"/>
+  </g>
+  <circle cx="1030" cy="360" r="86" fill="rgba(255,255,255,.12)" stroke="#43e7ff" stroke-width="5"/>
+  <path d="M1004 308v104l86-52z" fill="#ffffff"/>
+</svg>

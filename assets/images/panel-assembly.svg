@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Electrical panel assembly bench</title>
+  <desc id="desc">Detailed industrial panel assembly with cables, breakers and test equipment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef5fb"/>
+      <stop offset="1" stop-color="#a9c1d8"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#03162d"/>
+      <stop offset="1" stop-color="#0b356c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#03162d" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <path d="M0 678C198 582 355 612 535 658c255 66 402 124 865-58v300H0Z" fill="#d6e5f1"/>
+  <g transform="translate(170 90)" filter="url(#shadow)">
+    <rect width="650" height="640" rx="9" fill="#f8fbff"/>
+    <rect x="34" y="34" width="582" height="572" fill="#dfeaf3"/>
+    <g transform="translate(70 82)">
+      <rect width="212" height="450" fill="#ffffff" stroke="#b5c7d8"/>
+      <path d="M32 42h148M32 82h148M32 122h148M32 162h148" stroke="#829bb2" stroke-width="12" stroke-linecap="round"/>
+      <g fill="#0b63f6">
+        <rect x="36" y="220" width="44" height="76" rx="4"/>
+        <rect x="96" y="220" width="44" height="76" rx="4"/>
+        <rect x="156" y="220" width="28" height="76" rx="4"/>
+      </g>
+      <path d="M56 330C56 390 118 390 118 450M120 330c0 52 66 54 66 118" fill="none" stroke="#d94343" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(346 82)">
+      <rect width="210" height="450" fill="#ffffff" stroke="#b5c7d8"/>
+      <circle cx="60" cy="76" r="22" fill="#18a56b"/>
+      <circle cx="126" cy="76" r="22" fill="#d94343"/>
+      <rect x="36" y="136" width="138" height="86" fill="#071d3b"/>
+      <path d="M58 166h92M58 194h62" stroke="#43e7ff" stroke-width="9" stroke-linecap="round"/>
+      <path d="M42 284h126M42 326h126M42 368h126" stroke="#829bb2" stroke-width="14" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g transform="translate(890 196)" filter="url(#shadow)">
+    <rect width="320" height="410" rx="9" fill="url(#dark)"/>
+    <path d="M42 86h236M42 136h168M42 186h206" stroke="#ffffff" stroke-opacity=".78" stroke-width="16" stroke-linecap="round"/>
+    <rect x="42" y="266" width="236" height="72" rx="5" fill="#0b63f6"/>
+    <path d="M76 302h168" stroke="#43e7ff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <path d="M860 640c76 74 184 76 260 8" fill="none" stroke="#0b63f6" stroke-width="16" stroke-linecap="round"/>
+  <path d="M850 694c98 92 238 86 330-6" fill="none" stroke="#43e7ff" stroke-width="7" stroke-linecap="round"/>
+</svg>

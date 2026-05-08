@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial electrical panel and automation control room</title>
+  <desc id="desc">A premium blue toned scene with electrical panels, energy lines and automation indicators.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#03162d"/>
+      <stop offset=".48" stop-color="#082b56"/>
+      <stop offset="1" stop-color="#0b63f6"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset=".62" stop-color="#c8d9e8"/>
+      <stop offset="1" stop-color="#829bb2"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#66ecff" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#0b63f6" stop-opacity=".22"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0v60" fill="none" stroke="#61e9ff" stroke-opacity=".13" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1800" height="1050" fill="url(#bg)"/>
+  <rect width="1800" height="1050" fill="url(#grid)" opacity=".72"/>
+  <path d="M-120 878C258 760 447 953 760 815c288-127 361-396 675-417 165-11 309 46 485 147v505H-120Z" fill="#03162d" opacity=".58"/>
+  <g opacity=".95">
+    <path d="M151 687 565 446l320 184 398-252 359 196" fill="none" stroke="#43e7ff" stroke-opacity=".52" stroke-width="3"/>
+    <path d="M151 741 565 500l320 184 398-252 359 196" fill="none" stroke="#0b63f6" stroke-opacity=".52" stroke-width="8"/>
+  </g>
+  <g transform="translate(1010 190)" filter="url(#glow)">
+    <rect x="0" y="0" width="420" height="620" rx="10" fill="url(#panel)" opacity=".98"/>
+    <rect x="28" y="32" width="364" height="92" rx="5" fill="#071d3b"/>
+    <rect x="54" y="56" width="106" height="12" fill="#43e7ff"/>
+    <rect x="54" y="82" width="242" height="10" fill="#0b63f6" opacity=".88"/>
+    <g transform="translate(36 158)">
+      <rect width="158" height="360" fill="#dfeaf3"/>
+      <rect x="18" y="20" width="122" height="16" fill="#0b63f6"/>
+      <rect x="18" y="58" width="122" height="16" fill="#8fa6ba"/>
+      <circle cx="44" cy="124" r="18" fill="#18a56b"/>
+      <circle cx="96" cy="124" r="18" fill="#d94343"/>
+      <path d="M28 184h102M28 224h102M28 264h102M28 304h102" stroke="#829bb2" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(222 158)">
+      <rect width="158" height="360" fill="#dfeaf3"/>
+      <path d="M26 34h106M26 76h106M26 118h106M26 160h106" stroke="#829bb2" stroke-width="10" stroke-linecap="round"/>
+      <rect x="28" y="216" width="102" height="98" fill="#071d3b"/>
+      <path d="M46 248h66M46 278h42" stroke="#43e7ff" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <rect x="0" y="0" width="420" height="620" rx="10" fill="none" stroke="#ffffff" stroke-opacity=".35"/>
+  </g>
+  <g transform="translate(240 216)" opacity=".94">
+    <rect x="0" y="0" width="520" height="350" rx="10" fill="#071d3b" fill-opacity=".72" stroke="#43e7ff" stroke-opacity=".26"/>
+    <path d="M44 88h148M44 132h250M44 176h192" stroke="#ffffff" stroke-opacity=".88" stroke-width="18" stroke-linecap="round"/>
+    <path d="M44 246h420" stroke="#43e7ff" stroke-width="4"/>
+    <circle cx="440" cy="92" r="34" fill="url(#glass)"/>
+    <circle cx="440" cy="184" r="52" fill="none" stroke="#43e7ff" stroke-opacity=".72" stroke-width="8"/>
+    <path d="M405 184h70M440 149v70" stroke="#43e7ff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#glow)" opacity=".88">
+    <circle cx="1580" cy="246" r="4" fill="#43e7ff"/>
+    <circle cx="692" cy="730" r="5" fill="#43e7ff"/>
+    <circle cx="1294" cy="856" r="5" fill="#43e7ff"/>
+    <path d="M1580 246H1395M692 730H514M1294 856h-226" stroke="#43e7ff" stroke-opacity=".62" stroke-width="2"/>
+  </g>
+</svg>
